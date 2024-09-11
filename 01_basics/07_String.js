@@ -13,6 +13,9 @@ const name2 = new String("Kundan kumar"); // this is good way to declare the ast
 // console.log(name2);
 
 // following are the some function which is used in the string like,
-console.log(name2[0]);
-console.log(name2[1]);
+// console.log(name2[0]); // ==> they provide the value which is present in the particular index
+// console.log(name2[1]);
 // const name1= name.toUpperCase()
+console.log(name2.toUpperCase()); // => they convert into the uppercase
+console.log(name2.toLowerCase()); // => they convert into the lowercase
+
