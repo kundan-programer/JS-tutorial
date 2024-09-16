@@ -18,9 +18,23 @@ const name2 = new String("Kundan kumar"); // this is good way to declare the ast
 // console.log(name2.toLowerCase()); // => they convert into the lowercase
 // console.log(name2.length); // => they give the length of the string
 // console.log(name2.charAt(1)); // it give the value of the particular index
-// console.log(name2.slice(0, 6)); // it give the value from starting to end-1
+// console.log(name2.substring(0, 5)); // it give the value from starting to end-1
+// console.log(name2.slice(0, 6)); // same as the substring but we can also give the negative values.
+
+// const name3 = "  KuNdan ";
+// console.log(name3);
+// console.log(name3.trim());
+
 // console.log(name2.replace("K", "D")); // basically it replace the key value
 // console.log(name2.concat(name)); // it add the new string with the privius oen
-
+// console.log(name2.__proto__);
 
 // and also there there are many method which is used in the Strings
+
+const url = "https://google.com";
+const url1 = url.replace("google", "instagram");
+// console.log(ne);
+// console.log(url.includes("google"));
+// console.log(url1.includes("google"));
+
+
